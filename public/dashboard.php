@@ -25,7 +25,7 @@
             <div class="sidebar-content">
                 <ul class="sidebar-nav nav flex-column">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">
+                        <a href="/" class="nav-link active">
                             <i class="fas fa-home"></i>
                             <span>Dashboard</span>
                         </a>
@@ -41,16 +41,16 @@
                         <div class="collapse" id="studentSubmenu">
                             <ul class="nav flex-column ms-3">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Student Details</a>
+                                    <a href="/students" class="nav-link">Student Details</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Student Admission</a>
+                                    <a href="/student-admission" class="nav-link">Student Admission</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Disabled Students</a>
+                                    <a href="/disabled-students" class="nav-link">Disabled Students</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Bulk Delete</a>
+                                    <a href="/bulk-delete" class="nav-link">Bulk Delete</a>
                                 </li>
                             </ul>
                         </div>
@@ -66,13 +66,13 @@
                         <div class="collapse" id="teacherSubmenu">
                             <ul class="nav flex-column ms-3">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Staff Directory</a>
+                                    <a href="/teachers" class="nav-link">Staff Directory</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Add Staff</a>
+                                    <a href="/add-staff" class="nav-link">Add Staff</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Staff Attendance</a>
+                                    <a href="/staff-attendance" class="nav-link">Staff Attendance</a>
                                 </li>
                             </ul>
                         </div>
@@ -88,25 +88,25 @@
                         <div class="collapse" id="academicsSubmenu">
                             <ul class="nav flex-column ms-3">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Class Timetable</a>
+                                    <a href="/academics" class="nav-link">Class Timetable</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Assign Class Teacher</a>
+                                    <a href="/assign-class-teacher" class="nav-link">Assign Class Teacher</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Promote Students</a>
+                                    <a href="/promote-students" class="nav-link">Promote Students</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Subject Group</a>
+                                    <a href="/subject-group" class="nav-link">Subject Group</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Subjects</a>
+                                    <a href="/subjects" class="nav-link">Subjects</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Class</a>
+                                    <a href="/classes" class="nav-link">Class</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Sections</a>
+                                    <a href="/sections" class="nav-link">Sections</a>
                                 </li>
                             </ul>
                         </div>

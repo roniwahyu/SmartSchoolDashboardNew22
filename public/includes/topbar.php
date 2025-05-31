@@ -10,7 +10,7 @@
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
                         <?php if(isset($currentPage) && $currentPage != 'Dashboard'): ?>
-                        <li class="breadcrumb-item active"><?= $currentPage ?></li>
+                        <li class="breadcrumb-item active"><?= htmlspecialchars($currentPage) ?></li>
                         <?php endif; ?>
                     </ol>
                 </nav>

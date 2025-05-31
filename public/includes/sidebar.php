@@ -13,7 +13,7 @@
     <div class="sidebar-content">
         <ul class="sidebar-nav nav flex-column">
             <li class="nav-item">
-                <a href="/" class="nav-link <?= ($currentModule ?? '') == 'dashboard' ? 'active' : '' ?>">
+                <a href="/" class="nav-link <?= (isset($currentModule) && $currentModule == 'dashboard') ? 'active' : '' ?>">
                     <i class="fas fa-home"></i>
                     <span>Dashboard</span>
                 </a>
