@@ -1137,11 +1137,11 @@
         }
         
         function showCRUDGenerator() {
-            alert('CRUD Generator functionality would be implemented here. This tool allows you to generate complete modules with models, controllers, and views based on database table structure.');
+            window.location.href = 'module-generator.php';
         }
         
         function showFormBuilder() {
-            alert('Form Builder functionality would be implemented here. This tool provides a drag-and-drop interface to create dynamic forms with validation rules.');
+            window.location.href = 'form-builder.php';
         }
         
         // Mobile sidebar toggle
