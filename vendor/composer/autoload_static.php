@@ -523,6 +523,7 @@ class ComposerStaticInitce4df7faaf2fe2c06b3a037be5bc3f83
         'Config\\App' => __DIR__ . '/../..' . '/app/Config/App.php',
         'Config\\Autoload' => __DIR__ . '/../..' . '/app/Config/Autoload.php',
         'Config\\Database' => __DIR__ . '/../..' . '/app/Config/Database.php',
+        'Config\\Exceptions' => __DIR__ . '/../..' . '/app/Config/Exceptions.php',
         'Config\\Modules' => __DIR__ . '/../..' . '/app/Config/Modules.php',
         'Config\\Paths' => __DIR__ . '/../..' . '/app/Config/Paths.php',
         'Config\\Services' => __DIR__ . '/../..' . '/app/Config/Services.php',

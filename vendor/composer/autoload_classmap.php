@@ -429,6 +429,7 @@ return array(
     'Config\\App' => $baseDir . '/app/Config/App.php',
     'Config\\Autoload' => $baseDir . '/app/Config/Autoload.php',
     'Config\\Database' => $baseDir . '/app/Config/Database.php',
+    'Config\\Exceptions' => $baseDir . '/app/Config/Exceptions.php',
     'Config\\Modules' => $baseDir . '/app/Config/Modules.php',
     'Config\\Paths' => $baseDir . '/app/Config/Paths.php',
     'Config\\Services' => $baseDir . '/app/Config/Services.php',

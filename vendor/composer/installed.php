@@ -3,7 +3,7 @@
         'name' => 'smartschool/dashboard',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '0075f5188566bbf5725660aa6ea2a0b4a92107c4',
+        'reference' => 'e89f0b99aec5535b6c4f7471f31723d6eaca4a06',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -292,7 +292,7 @@
         'smartschool/dashboard' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '0075f5188566bbf5725660aa6ea2a0b4a92107c4',
+            'reference' => 'e89f0b99aec5535b6c4f7471f31723d6eaca4a06',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -235,12 +235,12 @@ class App extends BaseConfig
      *
      * @var array<string, string|bool>
      */
-    public array $cookiePrefix         = '';
-    public array $cookieDomain         = '';
-    public array $cookiePath           = '/';
-    public array $cookieSecure         = false;
-    public array $cookieHTTPOnly       = false;
-    public array $cookieSameSite       = 'Lax';
+    public string $cookiePrefix         = '';
+    public string $cookieDomain         = '';
+    public string $cookiePath           = '/';
+    public bool $cookieSecure         = false;
+    public bool $cookieHTTPOnly       = false;
+    public string $cookieSameSite       = 'Lax';
 
     /**
      * --------------------------------------------------------------------------
