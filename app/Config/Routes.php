@@ -69,7 +69,7 @@ $routes->group('academic', function ($routes) {
 
 // Module Generator Routes
 $routes->group('module-generator', function ($routes) {
-    $routes->get('/', 'ModuleGenerator::index');
+    $routes->get('/', 'Whatsapp::index');
     $routes->get('create', 'ModuleGenerator::create');
     $routes->post('generate', 'ModuleGenerator::generate');
     $routes->get('form-builder', 'ModuleGenerator::formBuilder');
@@ -83,4 +83,13 @@ $routes->group('api', function ($routes) {
     $routes->get('sections/datatables', 'Sections::datatables');
     $routes->get('rooms/datatables', 'Rooms::datatables');
     $routes->get('dashboard/stats', 'Dashboard::getStats');
+});
+
+// Module Generator Routes
+$routes->group('whatsapp', function ($routes) {
+    $routes->get('/', 'Whatsapp::index');
+    $routes->get('create', 'Whatsapp::create');
+    $routes->post('generate', 'Whatsapp::generate');
+    $routes->get('form-builder', 'Whatsapp::formBuilder');
+    $routes->post('save-form', 'Whatsapp::saveForm');
 });
