@@ -67,6 +67,20 @@ class Autoload extends AutoloadConfig
      * Helper Files
      * -------------------------------------------------------------------
      * Prototype:
+     *   $helpers = [
+     *       'form',
+     *       'url',
+     *   ];
+     *
+     * @var array<int, string>
+     */
+    public $helpers = [];
+
+    /**
+     * -------------------------------------------------------------------
+     * Helper Files
+     * -------------------------------------------------------------------
+     * Prototype:
      *   $files = [
      *       '/path/to/my/file.php',
      *   ];
