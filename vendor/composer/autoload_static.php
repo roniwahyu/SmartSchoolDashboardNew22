@@ -522,6 +522,7 @@ class ComposerStaticInitce4df7faaf2fe2c06b3a037be5bc3f83
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Config\\App' => __DIR__ . '/../..' . '/app/Config/App.php',
         'Config\\Database' => __DIR__ . '/../..' . '/app/Config/Database.php',
+        'Config\\Paths' => __DIR__ . '/../..' . '/app/Config/Paths.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',

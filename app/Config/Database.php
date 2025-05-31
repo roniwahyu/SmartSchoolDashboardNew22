@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => $_ENV['PGHOST'] ?? 'localhost',
-        'username'     => $_ENV['PGUSER'] ?? 'postgres',
-        'password'     => $_ENV['PGPASSWORD'] ?? '',
-        'database'     => $_ENV['PGDATABASE'] ?? 'smartschool',
+        'hostname'     => 'localhost',
+        'username'     => 'postgres',
+        'password'     => '',
+        'database'     => 'smartschool',
         'DBDriver'     => 'Postgre',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => $_ENV['PGPORT'] ?? 5432,
+        'port'         => 5432,
         'numberNative' => false,
         'dateFormat'   => [
             'date'     => 'Y-m-d',
