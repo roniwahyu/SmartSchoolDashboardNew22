@@ -1,5 +1,6 @@
 # Ignore sensitive environment files
 .env
+env
 .env.*
 .vagrant
 Vagrantfile
