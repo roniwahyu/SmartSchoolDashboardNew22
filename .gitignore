@@ -134,7 +134,8 @@ node_modules/
 # Ignore public assets (if dynamically generated)
 public/assets/*
 !public/assets/index.html
-vendor/composer/autoload_classmap.php
-vendor/composer/autoload_classmap.php
-vendor/composer/installed.php
-vendor/composer/autoload_static.php
+vendor/composer/*
+composer.lock
+composer.phar   
+
+
